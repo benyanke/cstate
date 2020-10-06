@@ -307,6 +307,17 @@ params:
   # Default: UA-00000000-1
   googleAnalytics: UA-00000000-1
 
+  # Show ticker seconds next to "last updated"
+  # 
+  # If set to true, the ticker will
+  # display the exact number of seconds
+  # during the first minute after a refresh.
+  # If set to false, the distraction is removed
+  # and it displays "less than a minute".
+  # 
+  # Default: True
+  showTickerSeconds: true
+
 # These options affect the core of cState.
 # Please do not change them if you do not
 # know what you are doing.
